@@ -8,6 +8,7 @@ st.title("💡 Gaps & Ideas Generator")
 api_key = st.secrets["GEMINI_API_KEY"]
 client = genai.Client(api_key=api_key)
 
+
 # --- Load reading list ---
 papers = st.session_state.get("reading_list", [])
 if not papers:

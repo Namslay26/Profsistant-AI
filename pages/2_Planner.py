@@ -7,6 +7,7 @@ import io
 import os
 
 # --- Gemini setup ---
+
 api_key = st.secrets["GEMINI_API_KEY"]
 client = genai.Client(api_key=api_key)
 

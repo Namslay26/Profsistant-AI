@@ -7,6 +7,7 @@ import plotly.express as px
 st.title("📈 Research Progress Dashboard")
 
 # --- Check data ---
+
 if "reading_list" not in st.session_state or not st.session_state.reading_list:
     st.warning("Your reading list is empty. Add papers on the Reading List page.")
     st.stop()

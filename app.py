@@ -6,6 +6,7 @@ from google import genai
 api_key = st.secrets["GEMINI_API_KEY"]
 client = genai.Client(api_key=api_key)
 
+
 # Session state for reading list
 if "reading_list" not in st.session_state:
     st.session_state.reading_list = []
